@@ -1,0 +1,172 @@
+/* stilizira stranice sa proizvodima */ 
+.topnav2 {
+
+    overflow: hidden;	
+	
+}
+.topnav2 a {
+    float:left;
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+	font-family:Century Gothic;	
+}
+.topnav2 a:hover {
+    color: rgb(172, 167, 167);
+	
+}
+.topnav2 a{
+	border-right:1px solid white;
+}
+.current {
+	background-color:rgb(172, 167, 167);
+}
+.div1{
+	width:500px;
+	float:left;
+	margin:2px;
+	padding:50px;
+}
+.div2{
+	width:500px;
+	float:left;
+	margin:2px;
+	padding:50px;
+}
+.div3{
+	width:500px;
+	float:left;
+	margin:2px;
+	padding:50px;
+}
+.div4{
+	width:500px;
+	float:left;
+	margin:2px;
+	padding:50px;
+}
+.div5{
+	width:500px;
+	float:left;
+	margin:2px;
+	padding:50px;
+}
+.div6{
+	width:500px;
+	float:left;
+	margin:2px;
+	padding:50px;
+}
+.div7{
+	width:500px;
+	float:left;
+	margin:2px;
+	padding:50px;
+}
+.div8{
+	width:500px;
+	float:left;
+	margin:2px;
+	padding:50px;
+}
+.div9{
+	width:500px;
+	float:left;
+	margin:2px;
+	padding:50px;
+}
+.div10{
+	width:500px;
+	float:left;
+	margin:2px;
+	padding:50px;
+}
+.div11{
+	width:500px;
+	float:left;
+	margin:2px;
+	padding:50px;
+}
+.div12{
+	width:500px;
+	float:left;
+	margin:2px;
+	padding:50px;
+}
+.div13{
+	width:500px;
+	float:left;
+	margin:2px;
+	padding:50px;
+}
+.div14{
+	width:500px;
+	float:left;
+	margin:2px;
+	padding:50px;
+}
+.div15{
+	width:500px;
+	float:left;
+	margin:2px;
+	padding:50px;
+}
+.div16{
+	width:500px;
+	float:left;
+	margin:2px;
+	padding:50px;
+}
+.div17{
+	width:500px;
+	float:left;
+	margin:2px;
+	padding:50px;
+}
+.div18{
+	width:500px;
+	float:left;
+	margin:2px;
+	padding:50px;
+}
+.div19{
+	width:500px;
+	float:left;
+	margin:2px;
+	padding:50px;
+}
+.div20{
+	width:500px;
+	float:left;
+	margin:2px;
+	padding:50px;
+}
+.div21{
+	width:500px;
+	float:left;
+	margin:2px;
+	padding:50px;
+}
+
+.div22{
+	width:500px;
+	float:left;
+	margin:2px;
+	padding:50px;
+}
+.button {
+
+  font-size: 11px;
+  line-height: 18px;
+  color: #fff;
+  display: inline-block;
+  height: 19px;
+  padding: 0 10px;
+  border: 1px solid;
+  border-color: #2d86b6 #24659e #255796;
+  
+  background-color: #52b6ec;   
+}

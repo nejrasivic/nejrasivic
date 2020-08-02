@@ -1,0 +1,33 @@
+
+/* stiliziranje stranice login.html*/
+html { 
+  background: url("../slike/login.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+form {
+  margin:0 auto;
+  width:450px;
+  font-size: xx-large;
+  font-family: sans-serif;
+}
+input {
+  margin-bottom:3px;
+  padding:10px;
+  width: 100%;
+  border:1px solid #CCC
+}
+
+#prijava{
+  width: 472px;
+}
+
+.card{
+  margin-top: 200px;
+}
+.login0{
+	text-align:center;
+	font-size:50px;
+}

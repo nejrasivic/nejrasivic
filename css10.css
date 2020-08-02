@@ -1,0 +1,23 @@
+/*stranica zahvala.html pozadinska slika...* .singupthanks*/
+html { 
+    background: url("../slike/registration.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+/*stilizira dugmad */
+.button {
+    background-color: white;
+    border: rgb(35, 148, 182);
+    color: rgb(35, 148, 182);
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family:arial;
+    
+    position: absolute;}

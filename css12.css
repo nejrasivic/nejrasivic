@@ -1,0 +1,32 @@
+/* stiliziranje stranice hvala.html*/ 
+html{
+    background: url("../slike/onama.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
+}
+/*dugmad na stranici*/
+.button {
+    background: rgb(218, 181, 204);
+    border: none;
+    color: rgb(73, 94, 214);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-family:arial;
+}
+
+.hvala{
+	text-align:center;
+	font-family:arial;
+}
+
+h1{
+    color: rgb(73, 94, 214);
+}

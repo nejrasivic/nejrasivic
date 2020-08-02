@@ -1,0 +1,2 @@
+window.alert("Hvala Vam na kupovini, posiljka ce biti isporucena u roku od 48h. Za sva dodatna pitanja pozovite broj 062/372/894");
+// na stranici se ispisuje poruka(alert) za korisnika, zahvala za kupovinu te kontakt telefon

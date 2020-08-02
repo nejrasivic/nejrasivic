@@ -1,0 +1,42 @@
+/* stilizira stranicu indx.html*/ 
+html{
+        background: url("../slike/onama.jpg") no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      
+}
+h1{
+	padding-top:30px;
+	color: white;
+	font-size: xx-large;
+    font-family: comic sans MS;
+    text-align: center;
+}
+
+body{
+    text-align: center;
+}
+.round:hover {
+    left: -15%;
+    top: -15%;
+    font-size: 33px;
+    padding-top: 10px;
+
+}
+
+.card{
+    margin-top: 200px;
+}
+
+
+.round{
+    color: #ffffff !important;
+        background: rgb(218, 181, 204);
+        border-color: rgb(218, 181, 204) !important;
+        width: 300px;
+        height: 70px;
+}
+
+
