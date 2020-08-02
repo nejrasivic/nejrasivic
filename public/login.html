@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> DHN SPORT LogIn </title>
+    <!-- povezujemo sa css dokumentom u kojem uredjujemo krajnji izgled stranice-->
+  <link href="css/css9.css" type="text/css" rel="stylesheet" />
+  <script type='text/javascript' src="skripte/skripta.js"> </script>
+</head>
+
+	<body>
+    <div class="card">
+ <!-- unosimo osobne informacije kako bismo  se prijavili na stranicu-->
+	<div class="login0">
+	<p><i><b>Unesite Vaše korisničko ime i password</b></i></p>
+</div>
+
+<form id="form_id" action="http://localhost:3000/pocetna" method="post">
+  <input type="text" id="username" name="username" placeholder="Korisničko Ime" required>
+  <input type="password" id="password" name="pw" placeholder="Password" required>
+  <input type="submit" id="prijava" value="Prijava" onclick="validate()">
+  <!-- <font color="red" size="4em"><label id="error"></font> -->
+</form>
+
+<script src="skripte/login.js"> </script>
+<!-- povezujemo sa skriptom 'login.js' koja predstavlja eksternu js skripru za izvrsavanje odredjenog dijela koda -->
+</div> 
+</body>
+</html>

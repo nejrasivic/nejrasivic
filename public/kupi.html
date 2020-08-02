@@ -1,0 +1,31 @@
+<html>
+<head>
+<title> DHN SPORT </title>
+   <!-- povezujemo sa css dokumentom u kojem uredjujemo krajnji izgled stranice-->
+	<link href="css/css2.css" type="text/css" rel="stylesheet" />
+
+<form id="form1">
+    <div class="form-container">
+      <div class="personal-information">
+        <h1>Informacije za plaćanje</h1>
+      </div> 
+      <!-- unosimo osobne informacije kako bismo izvrsili kupnju i potvrdili narudzbu-->
+      <input id="input-field" type="text" name="adresastanovanja" required="required" autocomplete="on" maxlength="45" placeholder="Adresa stanovanja"/>
+      <input id="column-left" type="text" name="grad" required="required" autocomplete="on" maxlength="20" placeholder="Grad"/>
+      <input id="column-right" type="text" name="postanskibroj" required="required" autocomplete="on" pattern="[0-9]*" maxlength="5" placeholder="Postanski broj"/>
+      <input id="input-field" type="text" name="e-mail" required="required" autocomplete="on" maxlength="40" placeholder="E-mail"/>
+    
+        <div class="card-wrapper"></div>
+          <input id="column-left" type="text" name="ime" placeholder="Ime"/>
+          <input id="column-right" type="text" name="prezime" placeholder="Prezime"/>
+          <input id="input-field" type="text" name="broj" placeholder="Broj kartice"/>
+          <input id="column-left" type="text" name="datumisteka" placeholder="MM / YY"/>
+		      <input id="column-right" type="text" name="telefonskibroj" placeholder="Broj telefona"/>
+          <input id="input-button" type="submit" value="Potvrdi"/>
+		  
+  </form>
+</div>
+</body>
+<script src="skripte/kupi.js"> </script>
+<!-- povezujemo sa skriptom 'kupi.js' koja predstavlja eksternu js skripru za izvrsavanje odredjenog dijela koda -->
+</html>
